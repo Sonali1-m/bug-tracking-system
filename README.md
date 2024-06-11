@@ -2,6 +2,10 @@
 
 This is a simple bug tracking system implemented using HTML, CSS, and JavaScript.
 
+## Demo
+
+A live demo of the bug tracking system is available here [View](https://sonali1-m.github.io/bug-tracking-system/).
+
 ## Introduction
 
 Bug Tracking System is a web application designed to help software development teams track and manage bugs and issues in their projects. It provides a user-friendly interface for adding, editing, and deleting bugs, as well as tracking their status.
