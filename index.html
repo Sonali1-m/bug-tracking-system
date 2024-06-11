@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Tracking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bug Tracking System</h1>
+    <div id="bug-form">
+        <input type="text" id="bug-title" placeholder="Bug Title">
+        <textarea id="bug-description" placeholder="Bug Description"></textarea>
+        <select id="bug-status">
+            <option value="open">Open</option>
+            <option value="in-progress">In Progress</option>
+            <option value="closed">Closed</option>
+        </select>
+        <button id="add-bug-btn">Add Bug</button>
+    </div>
+    <div class="bug-box">
+        <table id="bug-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="bug-list">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
